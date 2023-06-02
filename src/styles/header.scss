@@ -1,0 +1,38 @@
+header {
+    background-color: $bg_color2;
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+    align-items: center;
+
+    >h2 {
+        font-size: 4rem;
+        letter-spacing: 10px;
+        background: $text_bg;
+        background: $text_gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    >ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            margin: 0 1rem;
+            font-size: 1.4rem;
+            cursor: pointer;
+            color: $text_color;
+            transition: all 0.3s;
+
+            &:hover {
+                transition: all 0.3s;
+                background: $text_bg;
+                font-size: 3rem;
+                background: $text_gradient;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}

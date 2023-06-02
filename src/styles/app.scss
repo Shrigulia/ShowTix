@@ -1,0 +1,21 @@
+@import './static.scss';
+@import './header.scss';
+@import './homeCard.scss';
+@import './home.scss';
+@import './MovieDetail.scss';
+@import './responsive.scss';
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    color: white;
+    font-family: $text2;
+ }
+
+ body{
+    background-color: $bg_color;
+ }
